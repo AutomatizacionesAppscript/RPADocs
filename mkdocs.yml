@@ -1,4 +1,5 @@
 site_name: RPA Docs
+site_url: https://automatizacionesappscript.github.io/RPADocs/
 theme:
   name: material
   features:
@@ -26,7 +27,6 @@ theme:
       primary: teal
       accent: lime
 
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -40,6 +40,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
   &copy; 2024

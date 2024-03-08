@@ -1,5 +1,5 @@
-# Page 2
+# Viaticos
 
-## Another heading
+## Titulo
 
-Some more example text
+Aqui el texto de la documentacion
