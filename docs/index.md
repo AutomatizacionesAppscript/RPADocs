@@ -1,17 +1,68 @@
-# RPA Docs Repositorio
+# Homepage
 
-Para una documentación completa visite [mkdocs.org](https://www.mkdocs.org).
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-O en la explicación de este proyecto se encuentra en [youtube.com](https://www.youtube.com/watch?v=Q-YA_dA8C20).
+## Code Annotation Examples
 
-    ## Ejemplos de anotaciones de código
+### Codeblocks
 
-Alguna forma de escribir códigos `code [dir-name]`
+Some `code` goes here.
 
-### Bloque de código
+### Plain codeblock
 
-    mkdocs.yml    # Archivo de configuración.
-    docs/
-        index.md  # La página de bienvenida.
-        ...       # Otras páginas de documentación
-i
+A plain codeblock:
+
+```
+Some code here
+def myfunction()
+// some comment
+```
+
+#### Code for a specific language
+
+Some more code with the `py` at the start:
+
+``` py
+import tensorflow as tf
+def whatever()
+```
+
+#### With a title
+
+``` py title="bubble_sort.py"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+#### With line numbers
+
+``` py linenums="1"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+#### Highlighting lines
+
+``` py hl_lines="2 3"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+## Icons and Emojs
+
+:smile:
+
+:fontawesome-regular-face-laugh-wink:
+
+:fontawesome-brands-twitter:{ .twitter }
+
+:octicons-heart-fill-24:{ .heart }
