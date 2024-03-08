@@ -1,5 +1,5 @@
-# Docu 2
+# Page 2
 
-## Otro Título
+## Another heading
 
-A modo de ejemplo...
+Some more example text
